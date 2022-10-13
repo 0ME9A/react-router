@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <Nav />
         <Routes>
-          <Route path="https://react-router-six.netlify.app/" element={<Home />} >
+          <Route path="/" element={<Home />} >
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
